@@ -1,0 +1,10 @@
+export enum ActionType {
+    FETCH_ALL = 'FETCH_ALL',
+    CREATE_USER = 'CREATE_USER',
+    DELETE_USER = 'DELETE_USER',
+    UPDATE_USER = 'UPDATE_USER',
+    EMPTY = "EMPTY",
+    LOGIN = "LOGIN",
+    REGISTER = "REGISTER",
+    LOG_OUT = "LOG_OUT"
+}
